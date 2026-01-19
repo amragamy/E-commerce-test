@@ -1,0 +1,318 @@
+@media (max-width: 1280px){
+    .features .container .features-parent .features-child{
+        width: 160px;
+    }
+
+    .features .container .features-parent .features-child .desc span{
+        font-size: 14px;
+    }
+
+    .featured-products .container .products .product-card .info h4{
+        font-size: 15px;
+    }
+
+    .pay-footer .container .pay-footer-child2{
+        width: 15%;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .hero{
+        background-position: 67% center;
+    }
+
+    .features .container .features-parent{
+        display: grid;
+        grid-template-columns: repeat(3,auto); 
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .featured-products .container .products{
+        grid-template-columns: repeat(3,auto);
+        gap: 30px;
+    }
+    
+}
+
+
+@media (max-width: 912px){
+    .hero{
+        background-position: 69% center;
+    }
+    
+    .hero .container h4,
+    .banner .container .first-banner .banner1 h4,
+    .banner .container .first-banner .banner2 h4{
+        font-size: 24px;
+    }
+
+    .hero .container h1{
+        font-size: 35px;
+    }
+
+    .hero .container p,
+    .sign-up .container .info p,
+    .pay-footer .container .title{
+        font-size: 15px;
+    }
+
+    .repair-services{
+        background-position: 70% center;
+    }
+
+    .featured-products .container .products .product-card .info h4,
+    .banner .container .first-banner .banner1 p,
+    .banner .container .first-banner .banner2 p,
+    .banner .container .second-banner .banner1 .info p,
+    .banner .container .second-banner .banner2 .info p,
+    .banner .container .second-banner .banner3 .info p,
+    .pay-footer .container p{
+        font-size: 12px;
+    }
+
+    .banner .container .first-banner .banner1{
+        background-position: 65% center;
+    }
+
+    .banner .container .first-banner .banner1 button,
+    .banner .container .first-banner .banner2 button{
+       font-size: 16px;
+    }  
+
+
+    .banner .container .second-banner .banner1 .info h4, 
+    .banner .container .second-banner .banner2 .info h4,
+    .banner .container .second-banner .banner3 .info h4{
+        font-size: 20px;
+    }
+    
+    .sign-up .container .info h4{
+        font-size: 27px;
+    }
+
+    .sign-up .container .field input,
+    .sign-up .container .field button{
+        font-size: 13px;
+    }
+
+    .sign-up .container .field button{
+        padding: 10px 20px;
+    }
+
+    .pay-footer .container .pay-footer-child1 .follow-us .icons .icon{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 540px){ 
+    header .navbar nav .container .links{
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    .hero .container h4,
+    .banner .container .first-banner .banner1 h4,
+    .banner .container .first-banner .banner2 h4{
+        font-size: 18px;
+    }
+
+    .hero .container h1,
+    .banner .container .second-banner .banner1 .info h4, 
+    .banner .container .second-banner .banner2 .info h4,
+    .banner .container .second-banner .banner3 .info h4{
+        font-size: 25px;
+    }
+
+    .hero .container p,
+    .sign-up .container .info p{
+        font-size: 10px;
+    }
+
+    .hero .container button{
+        width: 170px;
+        background-size: cover;
+    }
+
+    .features .container .features-parent{
+        grid-template-columns: repeat(2,auto);
+    }
+
+    .featured-products .container .title h2,
+    .banner .container .first-banner .banner1 h4,
+    .banner .container .first-banner .banner2 h4{
+        font-size: 30px;
+    }
+
+    .featured-products .container .title p{
+        font-size: 14px;
+    }
+
+    .repair-services .container p,
+    .banner .container .first-banner .banner1 p,
+    .banner .container .first-banner .banner2 p,
+    .banner .container .second-banner .banner1 .info p,
+    .banner .container .second-banner .banner2 .info p,
+    .banner .container .second-banner .banner3 .info p{
+        font-size: 17px;
+    }
+
+    .repair-services .container h4{
+        font-size: 20px;
+    }
+
+    .repair-services .container button{
+        padding: 10px 20px
+    }
+
+    .banner .container .first-banner,
+    .banner .container .second-banner{
+        flex-wrap: wrap;
+    }
+
+    .banner .container .second-banner{
+        gap: 30px;
+    }
+
+    .banner .container .first-banner .banner1,
+    .banner .container .first-banner .banner2,
+    .banner .container .second-banner .banner1,
+    .banner .container .second-banner .banner2,
+    .banner .container .second-banner .banner3{
+        width: 100%;
+    }
+
+    .sign-up .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sign-up .container .info,
+    .sign-up .container .field{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .pay-footer .container{
+        display: grid;
+        gap: 20px
+    }
+
+    .featured-products .container .products,
+    .pay-footer .container{
+        grid-template-columns: repeat(2,auto);
+    }
+    
+    .pay-footer .container .pay-footer-child1,
+    .pay-footer .container .pay-footer-child2,
+    .pay-footer .container .pay-footer-child3{
+       width: 100%;
+    }
+
+    .pay-footer .container .pay-footer-child3 .store{
+       flex-wrap: wrap;
+       gap: 10px;
+    }
+
+    .pay-footer .container .pay-footer-child3 .app,
+    .pay-footer .container .pay-footer-child3 .play{
+        width: 100%; 
+        border-width: 1px;
+    }
+
+}
+
+@media (max-width: 431px){
+    .menu{
+        font-size: 25px;
+    }
+
+    header{
+        position: relative;
+    }
+
+    header .navbar nav .container .links{
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        background-color: #e3e6f3;
+        top:0;
+        right:0;
+        bottom:0;
+        z-index: 9999;
+        width: 55%;
+        padding: 20px 15px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        font-size: 20px;
+        transition:all ease 0.5s;
+        transform: translateX(500px);
+        opacity: 0;
+    }
+
+    header .navbar nav .container .appear-links{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    .close,.menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .close{
+        position: absolute;
+        top:21px;
+        right:30px;
+    }
+
+    .hero{
+        background-position: 79% center;
+    }
+
+    .hero .container{
+        display: none
+    }
+
+    .featured-products .container .products,
+    .pay-footer .container{
+        grid-template-columns: repeat(1,auto);
+    }
+
+    .featured-products .container .products .product-card .info h4{
+        font-size: 20px;
+    }
+
+    .repair-services .container p,
+    .repair-services .container h4,
+    .repair-services .container button,
+    .banner .container .first-banner .banner1 p,
+    .banner .container .first-banner .banner2 p,
+    .banner .container .second-banner .banner1 .info p,
+    .banner .container .second-banner .banner2 .info p,
+    .banner .container .second-banner .banner3 .info p,
+    .pay-footer .container p{
+        font-size: 13px;
+    }
+
+    .banner .container .first-banner .banner1 h4,
+    .banner .container .first-banner .banner2 h4,
+    .sign-up .container .info h4{
+        font-size: 25px;
+    }
+
+
+    .pay-footer .container .pay-footer-child3 .store{
+        flex-wrap: nowrap;
+    }
+
+    .pay-footer .container .pay-footer-child3 .app,
+    .pay-footer .container .pay-footer-child3 .play{
+        width: 49%;
+    }
+
+    .pay-footer > p{
+        font-size: 14px;
+    }
+}

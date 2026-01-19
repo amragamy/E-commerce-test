@@ -1,0 +1,46 @@
+:root{
+    --primary-color: teal;
+}
+body{
+    height: 5000px;
+}
+
+*{
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.container{
+   width: 85%;
+   margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+   text-decoration: none;
+   color: #000;
+}
+
+h1{
+   font-size: 50px;    
+}
+
+h2{
+    font-size: 45px
+}
+
+h4{
+    font-size: 25px
+}
+
+p{
+    font-size: 18px;
+    color: grey;
+    font-weight: 400;
+}
