@@ -1,0 +1,132 @@
+/* Sart hero */
+.hero{
+    height: 40vh;
+    background-image: url('../img/banner/b1.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container{
+    text-align: center;
+    color: #FFF;
+}
+
+.hero .container h1{
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.hero .container p{
+    color: #d0cece;
+    margin: 10px 0px 20px 0px;
+}
+
+.featured-products{
+    margin: 40px 0px;
+}
+
+.pagination{
+    text-align: center;
+    padding: 30px 0;
+    margin: 0px 0px 20px 0px;
+}
+.pagination a{
+    background-color: var(--primary-color);
+    color: #FFF;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+
+/* Product Details */
+.single-product{
+    margin-top: 50px;
+    padding: 0px 0px 25px 0px
+}
+.single-product .container{
+    display: flex;
+    justify-content: space-between;
+}
+.single-product .container .images{
+    width: 37%;
+}
+
+.single-product .container .images img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.single-product .container .images .small-images{
+    display: flex;
+    gap: 10px;
+}
+
+.single-product .container .images .small-images .image{
+    width: 40%;
+}
+
+.single-product .container .details{
+    display: flex;
+    align-items: center;
+    width: 58%;
+}
+
+.single-product .container .details .details-parent h2{
+    margin-bottom: 25px;
+}
+
+.single-product .container .details .details-parent span{
+   font-size: 40px;
+}
+
+.single-product .container .details .details-parent .selection{
+    margin: 25px 0;
+}
+
+.single-product .container .details .details-parent .selection select,
+.single-product .container .details .details-parent .count input{
+    border: 1px solid #333
+}
+
+.single-product .container .details .details-parent .selection select{
+    padding: 6px 10px;
+}
+
+.single-product .container .details .details-parent .count {
+    display: flex;
+    align-items: center;
+}
+
+.single-product .container .details .details-parent .count input{
+    width: 50px;
+    height: 47px;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+}
+
+.single-product .container .details .details-parent .count button{
+    padding: 10px 25px;
+    border: none;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.single-product .container .details .details-parent .product-details{
+    margin-top: 30px;
+}
+
+.single-product .container .details .details-parent .product-details p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+

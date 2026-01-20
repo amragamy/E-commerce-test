@@ -1,5 +1,5 @@
 /* Start Navbar */
-/* header .navbar{
+header .navbar{
     height: 80px;
 }
 header .navbar nav{
@@ -51,108 +51,11 @@ header .navbar nav .container .links li a.active::before{
 .menu,
 .close{
     display: none;
-} */
-
-
-/* Sart hero */
-.hero{
-    height: 100vh;
-    background-image: url('../img/hero4.png');
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-}
-
-.hero .container h4, .hero .container h1, .hero .container button{
-    font-weight: 900;
-}
-
-.hero .container h4, .hero .container h1{
-    letter-spacing: 1px;
-}
-
-.hero .container .colored, .hero .container button{
-    color: var(--primary-color);
-}
-
-.hero .container p{
-    margin: 10px 0px 20px 0px;
-}
-
-.hero .container button{
-    border: none;
-    background: none;
-    background-image: url('../img/button.png');
-    background-position: center center;
-    width: 200px;
-    padding: 10px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-
-
-
-/* Start Features */
-.features{
-   padding: 5% 0px;
-}
-.features .container .features-parent{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.features .container .features-parent .features-child{
-    width: 180px;
-    padding: 30px 20px;
-    text-align: center;
-    border: 1px solid rgba(0,0,0,0.1);
-    box-shadow: 1px 1px 8px rgba(0,0,0,0.05);
-}
-
-.features .container .features-parent .features-child .image{
-    margin-bottom: 15px;
-}
-.features .container .features-parent .features-child .image img{
-    width: 100%;
-}
-
-.features .container .features-parent .features-child .desc span{
-    padding: 5px 8px;
-    font-weight: 900;
-    cursor: pointer;
-    color: #FFF;
-} 
-
-
-.features .container .features-parent .features-child:nth-child(1) span{
-    background-color:blanchedalmond;
-    color: var(--primary-color)
-}
-.features .container .features-parent .features-child:nth-child(2) span{
-    background-color: rgb(173, 131, 213);
-}
-
-.features .container .features-parent .features-child:nth-child(3) span{
-    background-color: rgb(72, 179, 181);
-}
-
-.features .container .features-parent .features-child:nth-child(4) span{
-    background-color: rgb(86, 131, 200);
-}
-
-.features .container .features-parent .features-child:nth-child(5) span{
-    background-color: rgb(137, 174, 85);
-}
-
-.features .container .features-parent .features-child:nth-child(6) span{
-    background-color: rgb(153, 143, 218);
 }
 
 
 /* Start featured-products */
-/* .featured-products .container .title{
+.featured-products .container .title{
     text-align: center;
     margin: 0px 0px 50px 0px;
 }
@@ -244,189 +147,9 @@ header .navbar nav .container .links li a.active::before{
       transform: translateY(-3px);  
     }
 }
- */
-
-
-/* Start Repair Services */
-.repair-services{
-    background-image: url('../img/banner/b2.jpg');
-    background-position: center center;
-    background-size: cover;
-    margin: 5% 0px;
-    height: 300px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFF;
-}
-.repair-services,
-.repair-services .container p{
-    color: #FFF;
-}
-
-.repair-services .container p{
-    font-size: 20px;
-    font-weight: 600;
-}
-.repair-services .container p,
-.repair-services .container h4{
-    letter-spacing: 1px;
-}
-
-.repair-services .container h4{
-    font-size: 30px;
-    font-weight: 900;
-    margin: 20px 0px;
-}
-.repair-services .container h4 span{
-    color: #f00;
-}
-
-.repair-services .container button{
-    border: none;
-    font-size: 20px;
-    padding: 12px 27px;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: all ease 0.5s;
-}
-.repair-services .container button:hover{
-    transform: scale(1.1);
-}
-
-
-/* Start Banner */
-.banner{
-    padding: 5% 0;
-    color: #fff;
-}
-.banner .container .first-banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 30px 0;
-    gap: 30px;
-}
-
-.banner .container .first-banner .banner1,
-.banner .container .first-banner .banner2{
-    background-position: center center;
-}
-
-.banner .container .first-banner .banner1{
-   background-image: url('../img/banner/b17.jpg');
-}
-.banner .container .first-banner .banner2{
-   background-image: url('../img/banner/b10.jpg');
-}
-
-.banner .container .first-banner .banner1,
-.banner .container .first-banner .banner2{
-   width: 50%;
-   height: 350px;
-   background-repeat: no-repeat;
-   background-size: cover;
-   display: flex;
-   align-items: center;
-   padding: 30px;
-}
-
-
-.banner .container .first-banner .banner1 p,
-.banner .container .first-banner .banner2 p{
-   color: #FFF; 
-   margin: 5px 0px;
-   font-size: 19px;
-}
-
-.banner .container .first-banner .banner1 h4,
-.banner .container .first-banner .banner2 h4{
-    font-weight: 900;
-    font-size: 35px
-}
-
-.banner .container .first-banner .banner1 button,
-.banner .container .first-banner .banner2 button{
-    padding: 10px 25px;
-    color: #FFF;
-    border: 1px solid #fff;
-    background: none;
-    cursor: pointer;
-    margin-top: 5px;
-    font-size: 18px;
-    font-weight: 900;
-    transition: all ease 0.5s;
-}
-
-.banner .container .first-banner .banner1 button:hover{
-    background-color: #e1f1f9;
-    color: #4b4343;
-}
-
-.banner .container .first-banner .banner2 button{
-    background-color: var(--primary-color);
-    border: none
-}
-
-.banner .container .first-banner .banner2 button:hover{
-    background-color: rgb(21, 166, 166);
-}
-
-.banner .container .second-banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* padding: 30px 0px; */
-}
-
-.banner .container .second-banner .banner1,
-.banner .container .second-banner .banner2,
-.banner .container .second-banner .banner3{
-    width: 31.5%;
-    height: 280px;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-.banner .container .second-banner .banner1{
-    background-image: url('../img/banner/b7.jpg');
-}
-
-.banner .container .second-banner .banner2{
-    background-image: url('../img/banner/b4.jpg');
-    background-position: 70% center;
-}
-
-.banner .container .second-banner .banner3{
-    background-image: url('../img/banner/b18.jpg');
-    background-position: 70% center;
-}
-
-
-.banner .container .second-banner .banner1 .info h4,
-.banner .container .second-banner .banner2 .info h4,
-.banner .container .second-banner .banner3 .info h4{
-    font-size: 25px;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.banner .container .second-banner .banner1 .info p,
-.banner .container .second-banner .banner2 .info p,
-.banner .container .second-banner .banner3 .info p{
-    color: #f00;
-    font-size: 19px;
-    font-weight: 900;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-}
 
 /* Start Sign Up */
-/* .sign-up{
+.sign-up{
    background-image: url('../img/banner/b14.png');
    background-position: 20% 30%;
    background-repeat: no-repeat;
@@ -488,12 +211,12 @@ header .navbar nav .container .links li a.active::before{
     color: #FFF;
     padding: 17px 30px;
     cursor: pointer;
-} */
+}
 
 
 /* Start footer */
 
-/* .pay-footer{
+.pay-footer{
     padding: 5% 0;
     height: 450px;
 }
@@ -596,8 +319,6 @@ header .navbar nav .container .links li a.active::before{
    text-align: center;
    padding: 20px 0;
    text-transform: capitalize;
-} */
-
-
+}
 
 
