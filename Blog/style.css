@@ -1,0 +1,90 @@
+/* Sart hero */
+.hero{
+    background-image: url('../img/banner/b19.jpg');
+    background-position: 0% 0%;
+}
+
+.hero .container p{
+    color: #fff;
+}
+
+
+.blog{
+    padding: 5% 0;
+}
+
+.blog .container .blog-box{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+    height: 450px;
+} 
+
+.blog .container .blog-box .image.b1{
+    background-image: url('../img/blog/b1.jpg');
+}
+.blog .container .blog-box .image.b2{
+    background-image: url('../img/blog/b2.jpg');
+}
+.blog .container .blog-box .image.b3{
+    background-image: url('../img/blog/b3.jpg');
+}
+.blog .container .blog-box .image.b4{
+    background-image: url('../img/blog/b4.jpg');
+}
+.blog .container .blog-box .image.b6{
+    background-image: url('../img/blog/b6.jpg');
+}
+
+.blog .container .blog-box .image{
+    background-position: 50% 45%;
+    background-size: cover;
+    height: 100%;
+    width: 49%;
+    position: relative;
+}
+
+.blog .container .blog-box .image p{
+    position: absolute;
+    top: -63px;
+    left: 10px;
+    z-index: -1;
+    font-size: 70px;
+    font-weight: 900;
+    color: #aaa;
+}
+
+.blog .container .blog-box .info{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 40px;
+    gap: 10px;
+}
+
+.blog .container .blog-box .info h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.blog .container .blog-box .info p{
+    text-align: justify;
+}
+
+.blog .container .blog-box .info .side-line{
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+}
+
+.blog .container .blog-box .info .side-line::after{
+    content:"";
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 200px
+}
