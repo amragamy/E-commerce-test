@@ -1,0 +1,87 @@
+/* Sart hero */
+.hero{
+    background-image: url('../img/about/banner.png');
+    background-position: 0% 0%;
+}
+
+/* know-us */
+.know-us,
+.download{
+    margin-top: 50px;
+}
+
+.know-us .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.know-us .container .image{
+    width: 48%;
+
+}
+
+.know-us .container .image img{
+    width: 100%;
+}
+
+.know-us .container .info{
+    width: 48%;
+    text-align: justify;
+}
+
+.know-us .container .info > p{
+    margin-bottom: 10px
+}
+
+.know-us .container .info .marquee{
+    text-wrap: nowrap;
+    margin-top: 20px;
+    background-color: #deebfe;
+    overflow: hidden;
+    padding: 5px 0px;
+}
+
+.know-us .container .info .move{
+    color: #000;
+    font-size: 16px;
+    padding-left:100%; 
+    animation: move 20s linear infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-300%);
+  }
+}
+
+/* download */
+.download .container h2,
+.download .container h2 span{
+    font-weight: 900;
+}
+
+.download .container h2{
+    text-align: center;
+    padding: 30px 0;
+}
+.download .container h2 span{
+    color:rgb(64, 54, 128);
+    text-decoration: underline;
+}
+
+.download .container .video{
+    display: flex;
+    justify-content: center;
+}
+.download .container .video video{
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+
+

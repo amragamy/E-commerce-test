@@ -1,0 +1,124 @@
+/* contact-info */
+.contact-info{
+    padding: 4% 0;
+}
+.contact-info .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.contact-info .container .info,
+.contact-info .container .iframe{
+    overflow: hidden;
+    width: 48%;
+}
+.contact-info .container .iframe iframe{
+    width: 100%;
+}
+
+.contact-info .container .info > p{
+    text-transform: uppercase;
+}
+
+.contact-info .container .info h2{
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.contact-info .container .info span{
+    font-weight: 800;
+    color: #000;
+}
+
+.contact-info .container .head-office{
+    padding: 10px 0;
+}
+.contact-info .container .head-office .head-office-child{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+/* form */
+.form{
+    margin-bottom: 4%;
+}
+
+.form .container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #AAA;
+    padding: 5%;
+}
+
+.form .container form{
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+.form .container .avatar{
+    width: 33%;
+}
+
+.form .container form > p{
+    text-transform: uppercase;
+}
+.form .container form > h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.form .container form input,
+.form .container form textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 9px;
+    outline: none;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+}
+
+.form .container form input:focus,
+.form .container form textarea:focus{
+    box-shadow: 0px 0px 8px #58a3ff;
+}
+
+.form .container form input::placeholder,
+.form .container form textarea::placeholder{
+    color: #AAA;
+    font-size: 17px;
+}
+
+.form .container form button{
+    border: none;
+    background-color: var(--primary-color);
+    color: #FFF;
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+
+.form .container .avatar{
+   display: flex;
+   flex-direction: column;  
+   gap: 35px
+}
+
+.form .container .avatar .avatar-child{
+   display: flex;
+   align-items: center;
+   gap: 20px
+}
+
+.form .container .avatar .avatar-child h3{
+    font-weight: 900;
+}
+
+.form .container .avatar .avatar-child p{
+    padding: 3px 0px;
+    text-transform: capitalize;
+}
