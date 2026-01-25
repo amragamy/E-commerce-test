@@ -45,7 +45,9 @@
 /* Product Details */
 .single-product{
     margin-top: 50px;
-    padding: 0px 0px 25px 0px
+    padding: 0px 0px 25px 0px;
+    position: relative;
+    overflow-x: hidden;
 }
 .single-product .container{
     display: flex;
@@ -112,11 +114,16 @@
 .single-product .container .details .details-parent .count button{
     padding: 10px 25px;
     border: none;
-    background-color: var(--primary-color);
+    background-color: rgb(109, 167, 167);
     font-size: 20px;
     color: #FFF;
     border-radius: 3px;
     margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.single-product .container .details .details-parent .count button:hover{
+    background-color: var(--primary-color);
 }
 
 .single-product .container .details .details-parent .product-details{
@@ -128,5 +135,31 @@
     text-align: justify;
 }
 
+.single-product .container .details .details-parent .pop-up i{
+    color: green;
+}
+.single-product .container .details .details-parent .pop-up i ,
+.single-product .container .details .details-parent .pop-up p{
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 900;
+}
 
+.single-product .container .details .details-parent .pop-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    position: absolute;
+    top:18%;
+    right:-100%;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
 
+.appear-pop-up{
+    right:0 !important;
+    opacity: 1 !important; 
+}

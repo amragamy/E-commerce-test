@@ -1,0 +1,54 @@
+.table{
+   padding: 4% 0; 
+}
+
+.table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    text-align: center;
+}
+
+.table th{
+    border-top: 1px solid #AAA;
+    border-bottom: 1px solid #AAA;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 30px 0;
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+table td{
+    padding: 10px 0;
+    border-bottom: 1px solid #AAA;
+    background-color: #f0f0f0;
+}
+
+table td img{
+    width: 100px;
+    height: 100px;
+}
+
+table td input{
+    width: 60px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #AAA;
+}
+
+table td i{
+    cursor: pointer;
+    transition: color linear 0.1s;
+}
+table td i:hover{
+    color: #f00;
+}
+
+.total{
+    background-color: var(--primary-color);
+    color: #FFF;
+    font-weight: 900;
+}

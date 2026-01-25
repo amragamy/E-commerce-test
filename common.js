@@ -106,7 +106,7 @@ function displayData(arr, parent){
                <i class="fa-solid fa-star"></i>  
                </div>
                <div class="price"><span>$78</span></div>
-               <div class="card-shopping"><i class="fa-solid fa-cart-shopping"></i></div>
+               <div class="card-shopping" title="Going to cart"><i title="Going to cart" class="fa-solid fa-cart-shopping"></i></div>
             </div>
          </div> ` 
    }
@@ -123,7 +123,15 @@ if(newArrivalProducts){
 
 
 
-
+let cart = document.getElementsByClassName('card-shopping');
+cart = Array.from(cart);
+// going to Cart Page
+cart.forEach((ele)=>{
+   ele.addEventListener('click',function(event){
+    event.stopPropagation();
+    window.location.href = '../Cart/cart.html'; 
+   });
+})
 
 
 
